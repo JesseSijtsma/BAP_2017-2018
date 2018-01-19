@@ -1,0 +1,37 @@
+body {
+	background-color: #000000;
+}
+
+p, h1 {
+	color: #ffffff;
+	display: inline;
+}
+
+hr {
+	width: 100%; 
+	border: 1.5px dotted #6699ff;
+}
+
+
+Input[type="text"] {
+	background-color: #000000;
+	border: 3px solid #6699ff;	
+	color: #ffffff;
+}
+
+Input[type="password"]{
+	background-color: #000000;
+	border: 3px solid #6699ff;	
+	color: #ffffff;
+}
+
+#Div1 {
+	width: 600px;
+	height: 800px;
+	background-color: #000000;
+	border: 3px dotted #6699ff;
+	margin: 0 auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+}
