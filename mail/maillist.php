@@ -6,9 +6,10 @@
 
 
 <?php
-    $naar = $_POST['naar'];
-    $onderwerp = $_POST['onderwerp'];
-    $bericht = $_POST['bericht'];
-    $van = 'From: ' . 'jessesijtsma@hotmail.nl';
-    mail($naar, $onderwerp, $bericht, $van);
+            $Subject = $_POST["onderwerp"];
+            $MailTo = "24583@ma-web.nl";
+            $Text = $_POST["bericht"];
+            $MailFrom = "From: ".$_POST["MailFrom"];
+
+            mail($MailTo,$Subject,$Text,$MailFrom);
 ?>
